@@ -49,4 +49,11 @@ public class Producto {
         return codigoFabricante;
     }
 
+    @Override
+    public String toString() {
+        return "{" + "codigo=" + codigo + ", nombre=" + nombre + ", precio=" + precio + ", codigoFabricante=" + codigoFabricante + '}';
+    }
+    
+    
+
 }

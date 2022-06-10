@@ -29,4 +29,11 @@ public class Fabricante {
         return nombre;
     }
 
+    @Override
+    public String toString() {
+        return "{" + "codigo=" + codigo + ", nombre=" + nombre + '}';
+    }
+    
+    
+
 }
